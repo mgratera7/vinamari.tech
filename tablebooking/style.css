@@ -18,7 +18,7 @@ html, body {
     box-shadow: 0 4px 8px rgb(0, 0, 0); /* Soft shadow for a floating effect */
     max-width: 450px; /* Optional: Max width of the form */
     margin: 30px auto; /* Center the form container on the page */
-    margin-top: 20px;
+    margin-top: 50px;
     border: 1px solid #ddd; /* Light gray border */
     opacity: 0;
     transform: translateY(30px);
@@ -109,7 +109,7 @@ html, body {
   z-index: 999;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px 10px 30px;
+  padding: 10px;
   background: #B4182D;
   color: #fda481;
   opacity: 0;
@@ -160,7 +160,7 @@ html, body {
 }
 
 .logo {
-  height: 40px; /* or whatever height fits your design */
+  height: 70px; /* or whatever height fits your design */
   width: auto;
 }
 
@@ -226,7 +226,7 @@ html, body {
 @media only screen and (max-width: 600px) {
   .form-container {
     max-width: 300px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .form-control {
@@ -234,7 +234,7 @@ html, body {
   }
 
   .site-header {
-    font-size: 12px;
+    font-size: 10px;
   }
 
 .brand-name {
@@ -242,7 +242,7 @@ html, body {
 }
 
 .logo {
-  height: 30px;
+  height: 50px;
 }
 
   .cha {

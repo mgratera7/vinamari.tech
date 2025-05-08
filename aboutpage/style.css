@@ -19,7 +19,7 @@ html, body {
     z-index: 999;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px 10px 30px;
+    padding: 10px;
     background: #B4182D;
     color: #fda481;
     opacity: 0;
@@ -70,7 +70,7 @@ html, body {
   }
   
   .logo {
-    height: 40px; /* or whatever height fits your design */
+    height: 70px; /* or whatever height fits your design */
     width: auto;
   }
 
@@ -240,12 +240,16 @@ html, body {
     font-size: large;
 }
 
-
+.col-12 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0;
+}
 
 /* media queries */
 @media only screen and (max-width: 600px) {
 .site-header {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .brand-name {
@@ -253,7 +257,7 @@ html, body {
     }
 
     .logo {
-        height: 30px;
+        height: 50px;
     }
 
     .cha {
@@ -274,4 +278,11 @@ html, body {
         font-size: medium;
     }
 
+    .col-12 {
+      display: table;
+    }
+
+    .note {
+      text-align: justify;
+    }
 }
