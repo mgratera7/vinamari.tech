@@ -309,6 +309,7 @@ html, body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 60px;
+    padding-bottom: 30px;
     margin: 0;
     color: #fda481;
     background-color: #37415c;
@@ -363,7 +364,7 @@ html, body {
 
 .col-12 {
   display: table;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 }
